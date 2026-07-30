@@ -79,9 +79,8 @@ nav:
           - 'User Guide': 'updates/registry-token-management-customer.md'
           - 'Admin Guide': 'updates/registry-token-management-admin.md'
         - Understanding Tokens: updates/understanding-tokens.md
-        - Registry Image Verification:
-            - Overview: updates/registry-image-verification-overview.md
-            - User Guide: updates/registry-image-verification-user-guide.md
+        - Registry Image Verification: updates/registry-image-verification.md
+            
         
       - 'Best Practices': 'updates/best-practices.md'
       - 'Update Tool Setup Usage Guide': 'updates/update-tool-setup-usage-guide.md'
