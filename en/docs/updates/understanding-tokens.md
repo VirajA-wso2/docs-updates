@@ -52,3 +52,4 @@ This design keeps personal credentials private for regular users while giving Cu
 
 !!! Important
     The Token Secret is displayed only once at the time of generation. Ensure the secret is stored securely before closing the generation window. If the secret is lost or forgotten, it cannot be recovered; a new secret must be generated using the **Re-generate Secret** action, which will immediately invalidate the existing one.
+    
