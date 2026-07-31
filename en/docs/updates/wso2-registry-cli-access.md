@@ -14,7 +14,7 @@ Please refer to the [Registry Token Management](registry-token-management.md) se
 
 ## Docker CLI
 
-The Docker CLI is the standard method for authenticating and pulling images from the WSO2 Container Registry. Use this method for straightforward image pull operations where the exact tag is already known.
+The Docker CLI is the standard method for authenticating and pulling images from the WSO2 Container Registry. Use this method for straightforward image pull operations.
 
 ### **Login**
 
