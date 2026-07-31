@@ -52,7 +52,7 @@ docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
 
 WSO2 container registry is powered by the open source project, [Harbor](https://goharbor.io/). Therefore, the Harbor CLI can be used to access the registry too. It suits automated workflows and CI/CD pipelines which need more control. It provides capabilities such as browsing repositories, querying artifacts, filtering, and discovering the latest available image tags within your subscribed projects.
 
-The Harbor CLI can be installed by following the [installation guide](https://github.com/goharbor/harbor-cli#installation). The WSO2 Container Registry supports repository and artifact operations via the Harbor CLI. For more information refer to the [Harbor CLI documentation](https://github.com/goharbor/harbor-cli).
+The Harbor CLI can be installed by following the [installation guide](https://github.com/goharbor/harbor-cli#install). The WSO2 Container Registry supports repository and artifact operations via the Harbor CLI. For more information refer to the [Harbor CLI documentation](https://github.com/goharbor/harbor-cli).
 
 !!! note
     The [jq](https://jqlang.org) command-line tool is also required to parse the JSON output from Harbor CLI commands.

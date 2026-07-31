@@ -14,7 +14,7 @@ Before verification, ensure:
 
 You need the WSO2 public key to validate the signatures. Save the following block into a file named **wso2-public-key.pub** on your local machine:
 
-```
+```shell
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw4rovhfVQqdUeXvtxxAl
 3OKdNLNaUqiAlnb3zBxv7ITYCJXhXLByUk5wuKca6fr00d3NqwXoUeVARdrKMz5y
