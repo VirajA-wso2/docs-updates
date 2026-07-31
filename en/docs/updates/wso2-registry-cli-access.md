@@ -72,6 +72,7 @@ To list all artifacts in a repository filtered by a specific major version:
 ```bash
 harbor artifact list <project>/<repository> \
   -q "tags=~<major-version>." \
+  -s '-push_time' \
   -n 100 \
   -o json | jq -r '.Payload[].tags[].name' \
   | grep -E '^<major-version>\.[0-9]+\.[0-9]+\.[0-9]+$' \
@@ -91,6 +92,7 @@ To programmatically identify the latest pinned image tag for a given major versi
 ```bash
 harbor artifact list <project>/<repository> \
   -q "tags=~<major-version>." \
+  -s '-push_time' \
   -n 100 \
   -o json | jq -r '.Payload[].tags[].name' \
   | grep -E '^<major-version>\.[0-9]+\.[0-9]+\.[0-9]+$' \
