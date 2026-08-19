@@ -21,7 +21,7 @@ Upon successful generation, the system will display the **Token Name** and the *
 
 ![Generate token dialog 2](../assets/img/updates/registry-token-generate-token-2.png)
 
-!!! important
+!!! Important
     The **Token Secret** is displayed only once. Please ensure you back up the Secret before closing the window. If the Secret is lost or forgotten, you must refer to the [**Re-generate Secret**](#re-generate-secret) section below.
 
 ### **View Tokens**
