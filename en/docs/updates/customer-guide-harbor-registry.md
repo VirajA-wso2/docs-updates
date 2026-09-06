@@ -9,4 +9,4 @@ There are two primary ways to interact with the WSO2 container registry:
 
 
 !!! important
-    Please refer to the [image retention policy](image-retention-policy.md#image-retention-policy) to avoid any unexpected situations due to image clean ups. 
+    Please refer to the [Image retention policy](wso2-registry-image-retention-policy.md#image-retention-policy) to avoid any unexpected situations due to image clean ups. 

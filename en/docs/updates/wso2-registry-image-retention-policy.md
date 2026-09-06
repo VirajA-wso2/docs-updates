@@ -1,4 +1,4 @@
-## Image Retention Policy
+# Image Retention Policy
 
 To manage registry storage efficiently, older container images are periodically removed from the WSO2 Container Registry. The following retention rules apply to all projects:
 
